@@ -7,7 +7,7 @@ const mongo_username = process.env['mongo_username']
 const mongo_password = process.env['mongo_password']
 const uri = `mongodb+srv://${mongo_username}:${mongo_password}@cluster1.vazehvj.mongodb.net/?appName=Cluster1`
 
-const port = 8000
+const port = process.env.PORT || 8000;
 
 MongoClient.connect(
     uri,
