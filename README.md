@@ -1,50 +1,53 @@
 # 🎬 Mo-View
 
-A full-stack movie discovery web application that enables users to browse popular movies, search for titles, and manage movie reviews. The application integrates the TMDB API for movie information and uses an Express.js backend with MongoDB Atlas for persistent review storage.
+Mo-View is a full-stack movie web application built using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB Atlas. Users can browse popular movies, search for movies, and add, edit, or delete reviews. Movie information is fetched from the TMDB API, while reviews are managed through a custom REST API and stored in MongoDB.
 
-## ✨ Features
+---
 
-- Browse trending and popular movies
+## Features
+
+- Browse popular movies
 - Search movies by title
-- View movie details
-- Create, edit, and delete movie reviews
-- Responsive user interface
-- RESTful backend API
-- MongoDB Atlas integration
+- Add, edit, and delete reviews
+- Store reviews in MongoDB Atlas
+- REST API built using Express.js
 
-## 🛠️ Tech Stack
+---
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Fetch API
+## Tech Stack
 
-### Backend
+**Frontend**
+- HTML
+- CSS
+- JavaScript
+
+**Backend**
 - Node.js
 - Express.js
 - MongoDB Atlas
 
-### Tools & Deployment
+**Tools**
 - Git
 - GitHub
 - Render
 
-## 📁 Project Structure
+---
+
+## Folder Structure
 
 ```
-Mo-View/
+Mo-View
 │
-├── frontend/
+├── frontend
 │   ├── index.html
 │   ├── movie.html
 │   ├── index.js
 │   ├── movie.js
 │   └── style.css
 │
-├── backend/
-│   ├── api/
-│   ├── dao/
+├── backend
+│   ├── api
+│   ├── dao
 │   ├── server.js
 │   ├── index.js
 │   └── package.json
@@ -52,48 +55,63 @@ Mo-View/
 └── README.md
 ```
 
-## 🚀 Getting Started
+---
 
-### Clone the repository
+## Getting Started
+
+Clone the repository
 
 ```bash
 git clone https://github.com/vedantyerekar/Mo-View.git
 ```
 
-### Backend Setup
+Go to the backend folder
 
 ```bash
 cd backend
 npm install
 ```
 
-Create a `.env` file:
+Create a `.env` file
 
 ```env
 mongo_username=YOUR_USERNAME
 mongo_password=YOUR_PASSWORD
 ```
 
-Run the server:
+Start the server
 
 ```bash
 npm start
 ```
 
-### Frontend
+Open `frontend/index.html` using Live Server or any static server.
 
-Open `frontend/index.html` using Live Server or any static web server.
+---
 
-## 🔮 Future Enhancements
+## Screenshots
+
+### Home Page
+
+> Add a screenshot here
+
+### Reviews Page
+
+> Add a screenshot here
+
+---
+
+## Future Improvements
 
 - User authentication
-- Watchlist and favourites
+- Watchlist feature
 - Movie ratings
-- Advanced filtering
-- Dark mode
-- Backend proxy for TMDB API
+- Better search filters
+- Backend integration for movie data
 
-## 👨‍💻 Author
+---
+
+## Author
 
 **Vedant Yerekar**
 
