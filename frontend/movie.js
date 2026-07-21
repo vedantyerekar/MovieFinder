@@ -2,7 +2,7 @@ const url = new URL(location.href);
 const movieId = url.searchParams.get("id");
 const movieTitle = url.searchParams.get("title");
 
-const APILINK = "https://effective-palm-tree-jrjx57w6vgrvcrp9-8000.app.github.dev/api/v1/reviews/";
+const APILINK = "https://mo-view.onrender.com/api/v1/reviews/";
 
 const main = document.getElementById("section");
 const title = document.getElementById("title");
