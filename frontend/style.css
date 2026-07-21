@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -11,11 +11,11 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color:#131720;
+    background-color: #131720;
     padding: 10px;
 }
 
-.topnav a{
+.topnav a {
     float: left;
     display: block;
     color: white;
@@ -40,9 +40,8 @@ form {
 }
 
 input {
-    all: unset;
     font: 15px system-ui;
-    color: #fff;
+    color: black;
     height: 100%;
     width: 100%;
     padding: 6px 9px;
